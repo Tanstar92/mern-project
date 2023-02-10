@@ -1,0 +1,33 @@
+
+.contactSection {
+    background-image: url(img/contact.png),
+      linear-gradient(45deg, rgb(0, 0, 0), rgb(184, 179, 179));
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+  }
+  .formTitle {
+    color: #fff;
+  }
+  
+  .contactSection form {
+    background-color: rgba(160, 93, 62, 0.829);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formBtnWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formBtn {
+    width: 400px;
+    text-align: center;
+  }
+  
